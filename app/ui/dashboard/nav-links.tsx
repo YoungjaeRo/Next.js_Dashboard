@@ -4,6 +4,8 @@ import {
   DocumentDuplicateIcon,
 } from '@heroicons/react/24/outline';
 
+"use client";
+
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import clsx from 'clsx';
