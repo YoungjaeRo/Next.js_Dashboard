@@ -17,7 +17,7 @@ export type Customer = {
 };
 
 export type Invoice = {
-  id: string;
+  id: string; // DB에 생성 될 거임
   customer_id: string;
   amount: number;
   date: string;
